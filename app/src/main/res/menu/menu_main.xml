@@ -1,0 +1,36 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyCountries.MyCountries">
+    <item
+        android:id="@+id/add_country"
+        android:orderInCategory="100"
+        android:title="@string/add_country"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/country_ascending"
+        android:orderInCategory="100"
+        android:title="Ascending by Country"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/country_descending"
+        android:orderInCategory="100"
+        android:title="Descending by Country"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/year_ascending"
+        android:orderInCategory="100"
+        android:title="Ascending by Year"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/year_descending"
+        android:orderInCategory="100"
+        android:title="Descending by Year"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/prefs"
+        android:orderInCategory="100"
+        android:title="Prefs"
+        app:showAsAction="never" />
+
+</menu>

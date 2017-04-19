@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/MyCountries"
+            android:icon="@android:drawable/ic_menu_mylocation"
+            android:title="My Countries" />
+        <item
+            android:id="@+id/AlarmClock"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="AlarmClock" />
+        <item
+            android:id="@+id/mp3"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="MP3 Player" />
+    </group>
+
+</menu>
